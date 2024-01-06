@@ -296,12 +296,12 @@
                     <div>
                         <div id="" class="my-4 text-blue-800 font-bold">Added Items:</div>
                         <div id="item-list" class="my-4 text-red-800 font-bold"></div>
-                        <h1>
+                        <h1 class="text-xl">
                             Total Price: <span id="TP"></span>
                         </h1>
-                        <h1>Discount: <span id="disCount"></span> </h1>
-                        <h1>Total: <span id="PriceAfterDisc"></span></h1>
-                        <button class=" btn btn-secondary" id="purchase" disabled
+                        <h1 class="text-xl">Discount: <span id="disCount"></span> </h1>
+                        <h1 class="text-xl">Total: <span id="PriceAfterDisc"></span></h1>
+                        <button class=" btn btn-secondary mt-3" id="purchase" disabled
                             onclick="my_modal_4.showModal()">Purchase</button>
                     </div>
                 </div>
@@ -311,11 +311,9 @@
     <!-- Modal Section -->
 
     <div class="">
-        <!-- You can open the modal using ID.showModal() method -->
-
         <dialog id="my_modal_4" class="modal">
-            <div class="modal-box w-11/12 max-w-5xl">
-                <div class="">
+            <div class="modal-box ">
+                <div class="flex-1 justify-center items-center">
                     <img src="./images/congo.png" alt="">
                     <h1 class="text-3xl">Congratulations!</h1>
                 </div>
